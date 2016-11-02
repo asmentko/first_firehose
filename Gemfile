@@ -1,10 +1,13 @@
 source 'https://rubygems.org'
 
 
-#Use Bootstrap for SASS
+# Use Bootstrap for SASS
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'
 gem 'sass-rails'
+
+# Adding in Simple Form
+gem 'simple_form'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.9'
