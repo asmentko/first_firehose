@@ -163,7 +163,4 @@ SimpleForm.setup do |config|
 
   # Defines which i18n scope will be used in Simple Form.
   # config.i18n_scope = 'simple_form'
-
-  #remove asterix in required fields
-  config.label_text = lambda { |label, placeholder, required| "#{label}" }
 end
